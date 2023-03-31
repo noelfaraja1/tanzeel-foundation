@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+}
+
+body {
+  font-size: 18px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.card {
+  margin: 20px 14px;
+  box-shadow:1px 1px 4px rgba(0 0 0 / 40%), -1px -1px 4px rgba(0 0 0 / 40%);
+  padding: 14px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tanzeel-logo {
+  width: 200px;
+}
+
+.button-read {
+  width: 150px;
+  padding: 5px;
+  margin-top: 16px;
+  border-radius: 13px;
+  background-color: #046300;
+  color: #ddd;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.hr-title {
+  width: 194px;
+  height: 5px;
+  margin: auto;
+  margin-block: 9px;
+  background-color: #046300; 
+}
+
+.masjid-image, .amana {
+  width: 100%;
+}
+
+.footer {
+  background-color: #333;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.fa-brands {
+  font-size: 40px;
+  margin-inline: 10px;
+  color: #ddd;
+}
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ddd;
+  padding-top: 15px;
+}
+
+.link {
+  color: #ddd;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  color: #ddd;
+}
+
+.my-link {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.dev-section {
+  padding-bottom: 10px;
+}
+
+
+/* ABOUT */
+.condition-title {
+  list-style: decimal;
+  margin-left: 16px;
+  margin-top: 10px;
+}
+
+
+/* SERVICES */
+.carousel {
+  margin-top: 15px;
+}
+
+.card-service {
+  margin: 20px 14px;
+  box-shadow: 1px 1px 4px rgba(0 0 0 / 40%), -1px -1px 4px rgba(0 0 0 / 40%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-service {
+  width: 100%;
+}
+
+.description {
+  padding-block: 5px;
+  margin-inline: 8px;
+}
