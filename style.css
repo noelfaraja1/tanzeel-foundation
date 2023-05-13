@@ -228,9 +228,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-body {
+/* body {
   font-size: 25px;
-}
+} */
 
   .header {
     display: flex;
